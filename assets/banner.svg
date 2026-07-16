@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="100%" height="250">
+  <defs>
+    <!-- Gradiente de fundo escuro (Preto para Roxo/Azul) -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a11" />
+      <stop offset="50%" stop-color="#110d24" />
+      <stop offset="100%" stop-color="#15082e" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="800" height="250" fill="url(#bgGradient)" rx="8" ry="8"/>
+
+  <!-- ==================== ELEMENTOS DE FUNDO ==================== -->
+  
+  <!-- Símbolos Matemáticos -->
+  <g fill="#9b51e0" opacity="0.25" font-family="monospace" font-size="22">
+    <text x="60" y="70">∑</text>
+    <text x="730" y="210">∫ f(x)dx</text>
+    <text x="140" y="220">∇²</text>
+    <text x="690" y="60">π</text>
+    <text x="320" y="45">λ</text>
+    <text x="460" y="220">e^(iπ)+1=0</text>
+    <text x="50" y="160">A·x = λ·x</text>
+  </g>
+
+  <!-- Elementos de Código -->
+  <g fill="#4a90e2" opacity="0.2" font-family="monospace" font-size="26" font-weight="bold">
+    <text x="250" y="80">if (data):</text>
+    <text x="720" y="140">{ }</text>
+    <text x="560" y="190">[ ]</text>
+    <text x="170" y="150">def</text>
+    <text x="590" y="55">self</text>
+    <text x="380" y="200">&lt;/&gt;</text>
+  </g>
+
+  <!-- Conexões de Dados / Redes Neurais (Grafos) -->
+  <g stroke="#00f2fe" stroke-width="1.5" opacity="0.25">
+    <!-- Grafo Esquerdo -->
+    <line x1="80" y1="180" x2="110" y2="140" />
+    <circle cx="80" cy="180" r="3" fill="#00f2fe"/>
+    <circle cx="110" cy="140" r="3" fill="#00f2fe"/>
+    <line x1="110" y1="140" x2="160" y2="155" />
+    <circle cx="160" cy="155" r="3" fill="#00f2fe"/>
+    <line x1="160" y1="155" x2="180" y2="120" />
+    <circle cx="180" cy="120" r="3" fill="#00f2fe"/>
+
+    <!-- Grafo Direito -->
+    <line x1="620" y1="110" x2="660" y2="150" />
+    <circle cx="620" cy="110" r="3" fill="#00f2fe"/>
+    <circle cx="660" cy="150" r="3" fill="#00f2fe"/>
+    <line x1="660" y1="150" x2="710" y2="135" />
+    <circle cx="710" cy="135" r="3" fill="#00f2fe"/>
+    <line x1="660" y1="150" x2="680" y2="190" />
+    <circle cx="680" cy="190" r="3" fill="#00f2fe"/>
+  </g>
+
+  <!-- ==================== CONTEÚDO PRINCIPAL ==================== -->
+  
+  <!-- Nome -->
+  <text x="400" y="130" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="46" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="3">
+    THIAGO MACHADO
+  </text>
+
+  <!-- Subtítulo / Foco Técnico -->
+  <text x="400" y="165" font-family="monospace" font-size="16" fill="#8f9bb3" text-anchor="middle" letter-spacing="1">
+    SOFTWARE ENGINEERING | BACKEND &amp; DATA
+  </text>
+
+</svg>
