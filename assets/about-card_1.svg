@@ -1,4 +1,4 @@
-<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 900 505" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1a0e2e"/>
@@ -10,7 +10,7 @@
     </linearGradient>
   </defs>
 
-  <rect x="1" y="1" width="898" height="468" rx="16" fill="url(#cardBg)" stroke="#3a2660"/>
+  <rect x="1" y="1" width="898" height="503" rx="16" fill="url(#cardBg)" stroke="#3a2660"/>
 
   <text x="40" y="46" font-family="'Courier New', monospace" font-size="13" letter-spacing="2" fill="#6de3c8">$ CAT SOBRE_MIM.MD</text>
   <text x="40" y="78" font-family="'Courier New', monospace" font-size="24" font-weight="bold" fill="#f2f5fb">Estudante de Engenharia de Software</text>
@@ -62,7 +62,7 @@
   <!-- section 3: status -->
   <text x="40" y="360" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#c9c1e0">Atualmente</text>
 
-  <rect x="40" y="376" width="820" height="72" rx="12" fill="#1f1233" stroke="#3a2660"/>
+  <rect x="40" y="376" width="820" height="107" rx="12" fill="#1f1233" stroke="#3a2660"/>
   <circle cx="66" cy="398" r="5" fill="#6de3c8">
     <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
   </circle>
@@ -83,4 +83,10 @@
     <rect x="360" y="415" width="80" height="22" rx="11" fill="#2a1f42" stroke="#3a2660"/>
     <text x="400" y="430" text-anchor="middle">Node.js</text>
   </g>
+
+  <line x1="88" y1="448" x2="808" y2="448" stroke="#3a2660" stroke-width="1"/>
+  <circle cx="93" cy="465" r="4" fill="#7c5cff">
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+  <text x="106" y="469" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#b8a8ff">Em busca de uma oportunidade de estágio</text>
 </svg>
